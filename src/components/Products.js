@@ -52,7 +52,7 @@ render(){
                 <h3 >{product.name}</h3>
                 <div className="product_detail">
                   <div>
-                    <img src={product.img} alt={product.name} key={product.title} height="374" width="895" />
+                    <img src={product.img} alt={product.name} key={product.title} width="500" />
                   </div>
                   <div>
                     <h3>{product.title}</h3>
