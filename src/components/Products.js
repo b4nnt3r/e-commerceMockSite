@@ -22,7 +22,7 @@ class Products extends Component {
     console.log(e.target.value);
     list=[]
     for (var i = 0; i < products.length; i++) {
-      if (products[i].weaponType!==e.target.value) {
+      if (products[i].weaponType===e.target.value) {
         list.push(products[i])
       }
     }
