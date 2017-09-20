@@ -41,8 +41,10 @@ render(){
       <div>
         <div>
           <form className="select-box" onSubmit={this.handleSubmit}>
-            <span ><input type="checkbox" onChange={this.handleClick} name="SMG" value="LMG" />SMG</span>
-            <span ><input type="checkbox" onChange={this.handleClick} name="LMG"  value="SMG"  />LMG</span>
+            <span><input type="checkbox" onChange={this.handleClick} name="SMG" value="SMG" />SMGS</span>
+            <span><input type="checkbox" onChange={this.handleClick} name="LMG"  value="LMG" />LMGS</span>
+            <span><input type="checkbox" onChange={this.handleClick} name="ASSAULT RIFLE"  value="ASSAULT RIFLE" />ASSAULT RIFLE</span>
+            <span><input type="checkbox" onChange={this.handleClick} name="HANDGUN"  value="HANDGUN" />HANDGUNS</span>
           </form>
         </div>
         <div>

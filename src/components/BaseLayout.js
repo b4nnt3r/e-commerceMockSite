@@ -25,7 +25,7 @@ class BaseLayout extends Component {
           </div>
           <div className="header">
             <div className="title">
-              <img id="zombies_logo" src="http://vignette2.wikia.nocookie.net/callofduty/images/0/07/Infinite_Warfare_Zombies_Logo.png/revision/latest?cb=20160827130337" alt="logo" height="140" width="450"/>
+              <img id="zombies_logo" src="http://vignette2.wikia.nocookie.net/callofduty/images/0/07/Infinite_Warfare_Zombies_Logo.png/revision/latest?cb=20160827130337" alt="logo" width="450"/>
             </div>
           </div>
         </div>

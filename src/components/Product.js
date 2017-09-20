@@ -5,7 +5,7 @@ const Product = (props) => {
   return (
     <div className="item_display">
       <div >
-        <img src={product.img} alt={product.title} height="150" width="150"/>
+        <img src={product.img} alt={product.title} width="150"/>
         <h3 className="post-name">{product.name}</h3>
         <h5 className="post-title">{product.title}</h5>
         <h6 className="post-post">{product.blog}</h6>
