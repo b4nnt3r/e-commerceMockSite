@@ -1,9 +1,9 @@
-
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom'
 import '../styles/App.css';
 
 class BaseLayout extends Component {
+
   render(){
     console.log("COUNT",this.props.count);
     return(
@@ -11,7 +11,7 @@ class BaseLayout extends Component {
       <div>
         <div className="baselayout">
           <div className="nav-bar">
-            <NavLink exact to="/"><img id="logo" src="" alt="logo" height="100" width="100"/></NavLink>
+            <NavLink exact to="/"><img id="logo" src="http://i.imgur.com/wqlBeA3.png" alt="logo" height="70" width="100"/></NavLink>
             <nav>
               <NavLink exact to="/home" activeStyle={{"opacity": 1}}>Home</NavLink>
               <NavLink to="/products" activeStyle={{"opacity": 1}}>Store</NavLink>
@@ -25,20 +25,16 @@ class BaseLayout extends Component {
           </div>
           <div className="header">
             <div className="title">
-              <img id="" src="" alt="" height="140" width="450"/>
-              <div className="store_name">
-                <h1 id="brand">What to do what to do</h1>
-                <h4>Buy a 4 leaf clover</h4>
-              </div>
+              <img id="zombies_logo" src="http://vignette2.wikia.nocookie.net/callofduty/images/0/07/Infinite_Warfare_Zombies_Logo.png/revision/latest?cb=20160827130337" alt="logo" height="140" width="450"/>
             </div>
           </div>
         </div>
-        <div style={{"background-color":"#bc7878"}}>
+        <div style={{"background-color":"#f7ba88"}}>
           {this.props.children}
         </div>
       </div>
       <div className="footer">
-        <footer></footer>
+        <footer>Footer</footer>
       </div>
     </div>
     )

@@ -6,7 +6,7 @@ class Contact extends Component {
   super(props);
   this.state={
     email: "brandonshanewalden@gmail.com",
-    phone: "(774)283-1992",
+    phone: "774-283-1992",
     Location: "Orlando, FL"
   }
 }

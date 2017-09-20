@@ -7,7 +7,7 @@ class About extends Component {
       <div className="about">
         <div>
           <div>
-            <img id="about_img" src=''/>
+            <img id="about_img" src='https://i.ytimg.com/vi/rPZkl7vbQ4M/maxresdefault.jpg' alt="Zombies In Spaceland" width="65%" height="500px" />
           </div>
         </div>
 

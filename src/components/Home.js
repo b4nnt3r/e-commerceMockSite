@@ -7,17 +7,16 @@ class Home extends Component {
 
   render() {
     let feature_title = {
-      'color': 'white',
+      'color': '#000000',
       'textAlign': 'center',
       "paddingTop": "20px",
-      "fontFamily":"fantasy",
       "letterSpacing": 15
     }
     return(
       <div className="home_page">
         <div className="popular_items">
           <div id="block"></div>
-          <div><h2 style={feature_title}>New Arrival!!!</h2></div>
+          <div><h2 style={feature_title}>Fate and Fortune cards</h2></div>
           <div id="block"></div>
         </div>
         <div className="home_items">

@@ -1,24 +1,177 @@
-.App {
+body{
+  margin-left: 50px;
+  width: 91%;
+  height: 70%;
+  background-color: #d6cfcf;
+}
+
+#root{
+  border: 1px solid silver;
+}
+#logo{
+  position: fixed;
+  margin-left: 15px;
+  padding-top: 5px;
+  border-radius: 25px;
+}
+.nav-bar{
+  position: fixed;
+  height:80px;
+  width:91%;
+  z-index: 999;
+  background-color: #ffffff;
+
+}
+nav{
+  position: fixed;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 13%;
+  padding-top: 15px;
+  width:70%;
+}
+
+nav a{
+  float: left;
+  display: block;
+  border: 1px double black;
+  width:13%;
+  padding: 5px 5px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Actor";
   text-align: center;
+  font-size: 75%;
+  margin-right: 30px;
+  color: #000000;
+  opacity: .4;
+}
+#itemsInCart{
+position: absolute;
+right:60px;
+top:15px;
+}
+#shopping_cart{
+  justify-content: flex-end;
+  margin-top: 15px;
+  position: absolute;
+  margin-left: 93%;
+  border-radius: 100%;
+}
+.header{
+  text-align: center;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+#zombies_logo{
+  padding-top: 100px;
+  border-radius: 30px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
+#brand{
+  letter-spacing: 15px;
+  font-size: 2.5em;
+  font-weight: 800;
+  transform: rotate(1deg);
+  word-spacing: 20px;
+}
+h4{
+  margin-top: 5px;
+  transform: rotate(2deg);
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  padding-bottom: 30px;
+}
+
+#border{
+  margin-bottom: 0;
+}
+
+#block{
+  width:20%;
+  height:70px;
+}
+/** Home **/
+.about{
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.popular_items{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#about_img{
+  transition: .7s ease-in-out;
+  margin-top: 30px;
+}
+#about_img:hover{
+  transition: 1s ease-in-out;
+}
+/**Contact**/
+.contact{
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+
+}
+.contact_icon a{
+  margin:20px 20px;
+  padding-bottom: 30px;
+}
+.contact_info{
+  margin-top: 20px;
+}
+
+
+/**FOOTER**/
+.footer{
+  margin-top: 30px;
+  margin-right: 20px;
+  text-align:right;
+  color: #000000;
+}
+/**Features**/
+.feature_item{
+  /*padding: 15px;*/
+  color: #000000;
+  border-bottom: 5px solid #000000;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.feature_img{
+  margin:  0 0;
+  padding: 0 0;
+}
+.item_box_l{
+  padding-left: 15px;
+}
+.item_box_r{
+  margin-left: 30px;
+  padding-right: 15px;
+  margin-top: 80px;
+  font-size: 1.2em;
+}
+/***product select****/
+.select-box{
+  text-align: center;
+  margin: 0px 10px;
+  padding:15px;
+}
+.select-box span{
+  padding:5px 15px;
+}
+.product_detail{
   padding: 20px;
-  color: white;
+  display: flex;
+}
+.product_detail div{
+  padding-left: 20px;
 }
 
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.item_display{
+  background-color: white;
 }
